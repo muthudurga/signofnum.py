@@ -9,6 +9,6 @@ def sign():
         else:
             print("Zero")
     except:
-        print(n+" is not a number")
+        print("Invalid")
 sign()
     
