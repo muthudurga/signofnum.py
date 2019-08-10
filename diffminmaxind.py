@@ -4,6 +4,8 @@ if len(x)==N:
     for i in range(N):
         if x[i]==max(x):
             a=i
-        elif x[i]==min(x):
+            break
+    for i in range(N):
+        if x[i]==min(x):
             b=i
     print(a-b)
