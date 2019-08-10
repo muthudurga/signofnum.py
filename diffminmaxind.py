@@ -8,4 +8,5 @@ if len(x)==N:
     for i in range(N):
         if x[i]==min(x):
             b=i
+            break
     print(a-b)
